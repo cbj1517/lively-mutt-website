@@ -1,0 +1,12 @@
+
+-Make logo go back to home page
+-Have a 3 tile/scroll bar for featured videos on the home page
+-Have a featured recipe on the home page
+-Create all other pages and link them to CSS 
+-Be able to create user accounts
+-Make logo not transparent for the inner parts
+
+***DONE***
+-Change side bar to have people, dogs, and recipes, videos remove blog - DONE
+-Add home option to side bar - DONE
+-Make currently selected link on side bar a darker black - DONE
