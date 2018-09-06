@@ -1,0 +1,20 @@
+@media (orientation: landscape) {
+	#grid {
+		display: grid;
+
+		grid-template-areas: "head head head"
+							 "info info info"
+							 "media media media"
+							 "blog blog blog"
+							 "foot foot foot";
+
+		grid-auto-columns: auto 1fr;
+		grid-template-rows: auto 1fr auto;
+	}
+}
+
+#head 	{grid-area: head}
+#info 	{grid-area: info}
+#media 	{grid-area: media}
+#blog 	{grid-area: blog}
+#foot 	{grid-area: foot}
