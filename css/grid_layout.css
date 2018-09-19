@@ -4,7 +4,7 @@
 
 		grid-template-areas: "head head head"
 							 "info info info"
-							 "media media media"
+							 "vid1 vid2 vid3"
 							 "blog blog blog"
 							 "foot foot foot";
 
@@ -13,8 +13,27 @@
 	}
 }
 
-#head 	{grid-area: head}
-#info 	{grid-area: info}
-#media 	{grid-area: media}
-#blog 	{grid-area: blog}
-#foot 	{grid-area: foot}
+#head 	{
+			grid-area: head
+		}
+#info 	{
+			grid-area: info
+		}
+#vid1 	{
+			grid-area: vid1;
+			justify-self: center;
+		}
+#vid2 	{
+			grid-area: vid2;
+			justify-self: center;
+		}
+#vid3 	{
+			grid-area: vid3;
+			justify-self: center;
+		}
+#blog 	{
+			grid-area: blog
+		}		
+#foot 	{
+			grid-area: foot
+		}
